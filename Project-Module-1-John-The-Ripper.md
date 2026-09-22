@@ -60,7 +60,7 @@ This produced a hash string beginning with `$pdf$...`, containing the PDF's encr
 
 **7. Verified the Result** Opened the PDF using the recovered password to confirm successful decryption — file opened cleanly, confirming the crack was accurate. This step matters because cracking a hash is only proof on paper until the recovered password is actually used to open the real file; false matches can occasionally occur with weaker hash algorithms, though that wasn't an issue here.
 
-![PDF successfully unlocked and opened](images/07-pdf1-opened.png)
+![PDF successfully unlocked and opened](images/08-pdf1-opened.png)
 
 **8. Repeated for Additional Samples** Applied the identical workflow to two further locked PDFs, successfully cracking both and capturing their embedded "flags." Repeating the process and getting clean results both times turns "I got lucky once" into "I understand and can reliably repeat this workflow" — the kind of demonstrated consistency that matters far more than a single screenshot.
 
